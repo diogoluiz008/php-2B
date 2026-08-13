@@ -1,0 +1,13 @@
+<?php
+
+$quantidade = 2;
+$preçoProduto = 4500.50;
+$descontofixo = 250.00, 
+
+$subtotal = $quantidade * preçoProduto;
+$total = $subtotal - $descontofixo;
+
+echo "--- RESUMO DA COMPRA---"
+echo "subtotal: R$" . $subtotal . <br>;
+echo "total a pagar: R$ . $total
+?>
